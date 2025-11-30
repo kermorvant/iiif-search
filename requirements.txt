@@ -2,7 +2,6 @@ flask
 flask-cors
 qdrant-client
 transformers
-torch
 pillow
 python-dotenv
 requests
