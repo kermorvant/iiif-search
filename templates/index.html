@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIIF Search Debug</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .search-box {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #results {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .result-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .result-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .score {
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>IIIF Content Search Debug</h1>
+    <div class="search-box">
+        <input type="text" id="query" placeholder="Enter search query...">
+        <button onclick="search()">Search</button>
+    </div>
+    <div id="results"></div>
+
+    <script>
+
+        async function search() {
+            const query = document.getElementById('query').value;
+            const response = await fetch(`/search?q=${encodeURIComponent(query)}`);
+            const data = await response.json();
+
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+
+            if (data.resources) {
+                data.resources.forEach(res => {
+                    const div = document.createElement('div');
+                    div.className = 'result-item';
+
+                    // Parse target
+                    const on = res.on; // "canvas_id#xywh=..."
+                    const [canvasId, fragment] = on.split('#');
+
+                    div.innerHTML = `
+                        <p class="score">${res.resource.chars}</p>
+                        ${res.thumbnail ? `<img src="${res.thumbnail}" alt="Result Image">` : ''}
+                        <p><small>${canvasId}</small></p>
+                        <p>Region: ${fragment}</p>
+                    `;
+                    resultsDiv.appendChild(div);
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>
