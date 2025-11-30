@@ -1,0 +1,1712 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://storage.teklia.com/public/test/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Generated Manifest from CSV"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04",
+      "type": "Canvas",
+      "width": 5942,
+      "height": 7993,
+      "label": {
+        "none": [
+          "FRAN_0554_002859_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002859_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002859_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5942,
+                "height": 7993
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotation/43cf000d-7f61-42c0-bb37-070af939af1b",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04#xywh=3159,155,2667,2331"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotation/efb7ec1b-1955-4675-9475-86d53461c48b",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04#xywh=427,570,2616,1935"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotation/74615da7-8fd2-4dbd-9917-867e7524ceba",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04#xywh=3132,3002,2694,1965"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotation/481d161b-bd8f-4756-a4d3-4ad3216026e2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04#xywh=411,3047,2614,1953"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotation/2bff463f-c2da-4520-94a6-a6d4aa3271cb",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04#xywh=407,5516,2602,1949"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04/annotation/3f8acc58-e375-4f72-b705-a2481edbc7ec",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34bfba4e-917b-4fc4-bdaf-8ebb63aa0f04#xywh=3170,5557,2654,1915"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a",
+      "type": "Canvas",
+      "width": 5954,
+      "height": 8022,
+      "label": {
+        "none": [
+          "FRAN_0554_002865_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002865_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002865_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5954,
+                "height": 8022
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotation/869e73e8-efa1-4fd4-b7aa-34d0b01ddd51",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a#xywh=3149,152,2658,2270"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotation/c9f62836-1e97-4ab6-82f2-ff80bd6607d3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a#xywh=434,462,2653,2057"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotation/615ce122-6a2c-4992-af39-9b1d22b5c81d",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a#xywh=3124,2989,2674,1973"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotation/07ec7e1a-e2ec-4b1d-89b2-86eaf8a5bdbc",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a#xywh=428,3020,2613,1968"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotation/1b78d735-8df3-4e05-9bf0-ebae4cc4502f",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a#xywh=177,5584,2831,1939"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a/annotation/f173025e-aee8-4afc-b9f1-b450380060bd",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/74b9946b-6d7f-43e3-bfd3-5a4394a2141a#xywh=3165,5640,2646,2267"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c",
+      "type": "Canvas",
+      "width": 5936,
+      "height": 7966,
+      "label": {
+        "none": [
+          "FRAN_0554_002868_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002868_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002868_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5936,
+                "height": 7966
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotation/b952bf90-dea2-4455-a3e1-fe62e5c777c0",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c#xywh=137,146,2642,2347"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotation/f1ed933b-4bc3-4c1c-a16e-24ae6ed89366",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c#xywh=2918,528,2657,2176"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotation/6361f72c-9547-4c0f-99df-14bd2cfd35b1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c#xywh=3260,3069,2470,1935"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotation/d7f0c4ca-d9e1-469a-a225-21eff881b129",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c#xywh=180,3075,2694,1954"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotation/5f0e836d-da9e-4993-bfcc-c12f23ad4826",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c#xywh=168,5586,2655,1941"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c/annotation/f83c0a8a-87f1-41dd-ba3f-b689774d26a2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/56a09821-23de-4283-93e1-dcdca25b958c#xywh=2962,5632,2845,1917"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/35bbd9f2-fb77-4b0e-bbb8-a23227608723",
+      "type": "Canvas",
+      "width": 5901,
+      "height": 7979,
+      "label": {
+        "none": [
+          "FRAN_0554_002874_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/35bbd9f2-fb77-4b0e-bbb8-a23227608723/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/35bbd9f2-fb77-4b0e-bbb8-a23227608723/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002874_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002874_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5901,
+                "height": 7979
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/35bbd9f2-fb77-4b0e-bbb8-a23227608723"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/35bbd9f2-fb77-4b0e-bbb8-a23227608723/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/35bbd9f2-fb77-4b0e-bbb8-a23227608723/annotation/b5641ad9-ab53-47ff-9563-5fc64f2baab4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/35bbd9f2-fb77-4b0e-bbb8-a23227608723#xywh=658,1078,2038,2718"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9",
+      "type": "Canvas",
+      "width": 5930,
+      "height": 8014,
+      "label": {
+        "none": [
+          "FRAN_0554_002873_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002873_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002873_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5930,
+                "height": 8014
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9/annotation/4d36cb5e-e1ba-49f3-bb1f-5388b5e738be",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9#xywh=436,242,2661,2279"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9/annotation/5fefe682-898d-4ae1-9915-d3f10c35e2df",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9#xywh=3375,1305,2163,2722"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9/annotation/74dfb015-2c9f-4b49-a2fb-97bf3a83c05e",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9#xywh=446,2929,2607,1968"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9/annotation/35a62b03-c370-454a-8e51-40ea34071d74",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9#xywh=3388,4332,2151,2671"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9/annotation/f4d9721d-c7cb-4f25-9e0b-d6625c653682",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/4c505ab7-dca8-4dc2-8119-16a8802db1f9#xywh=444,5201,2625,2194"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947",
+      "type": "Canvas",
+      "width": 5959,
+      "height": 8008,
+      "label": {
+        "none": [
+          "FRAN_0554_002862_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002862_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002862_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5959,
+                "height": 8008
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947/annotation/fa8ee94e-9072-4190-bc22-93e32efa5a27",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947#xywh=2906,143,2827,2382"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947/annotation/00b79f6a-b71b-4a89-a5fa-8866720700bc",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947#xywh=646,813,1889,3007"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947/annotation/f6f5b9fb-57d8-47f0-82b7-52fe6840486b",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947#xywh=2932,3004,2664,1975"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947/annotation/d6961c7f-b3df-4bf2-82ca-3307dc1bfb5f",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947#xywh=628,4388,1902,2951"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947/annotation/ebcba67c-259f-4251-a3a5-2430fc8b66d9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/da20e5e0-a058-493b-bd97-ae2055405947#xywh=2902,5575,2900,1936"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7",
+      "type": "Canvas",
+      "width": 5934,
+      "height": 7993,
+      "label": {
+        "none": [
+          "FRAN_0554_002864_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002864_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002864_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5934,
+                "height": 7993
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotation/2fee240c-fa6a-474d-b96c-a6c936525647",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7#xywh=155,149,2704,2307"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotation/da4749dd-94f3-4c1a-887f-fedacac5b8b1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7#xywh=2914,527,2650,2031"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotation/b057da03-a654-4f75-85ea-71fffe4cbb13",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7#xywh=189,3003,2625,2022"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotation/679191db-9554-4ef9-8266-25e9b3c809f7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7#xywh=2904,3004,2895,1982"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotation/8bcadbb4-c9ef-4c4b-ab6a-4abdbfac9f54",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7#xywh=168,5494,2697,1985"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7/annotation/b5b3a6ee-2f71-4dd5-9c50-f419b1644072",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/1842bea8-1cf7-489f-a0c7-c80f12f68ad7#xywh=2918,5509,2887,1936"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc",
+      "type": "Canvas",
+      "width": 5933,
+      "height": 7995,
+      "label": {
+        "none": [
+          "FRAN_0554_002860_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002860_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002860_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5933,
+                "height": 7995
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotation/bead587a-f4a4-4403-8bc1-9391f774db77",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc#xywh=147,209,2627,2350"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotation/d3092522-5ab5-4e62-bb42-1c082a85c76d",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc#xywh=2917,375,2797,2218"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotation/5585801a-afc4-4828-9518-30e16b828649",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc#xywh=2922,3044,2878,1976"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotation/121f2329-c866-4e4e-9bd1-60a81fa39e56",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc#xywh=158,3092,2637,1908"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotation/e5f64b80-1721-4a27-a10d-9401ca80c32e",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc#xywh=2915,5553,2895,2314"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc/annotation/84fc530c-0af5-4a44-acdc-4d6418cc2c19",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/9670a2dc-4aba-4376-a951-12a60fb31abc#xywh=199,5557,2649,1926"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3",
+      "type": "Canvas",
+      "width": 5898,
+      "height": 8014,
+      "label": {
+        "none": [
+          "FRAN_0554_002861_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002861_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002861_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5898,
+                "height": 8014
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3/annotation/7d0be244-7591-40be-bd71-bbfc21004458",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3#xywh=408,580,2617,1934"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3/annotation/3c21389c-71af-4373-aa52-30b46958447a",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3#xywh=3547,1626,1879,3023"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3/annotation/7c1b3d4e-59b1-48c2-808a-1a58b5d777d2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3#xywh=339,3076,2674,1938"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3/annotation/aed31eb6-8498-430d-a92c-034c913a15f0",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3#xywh=3153,5488,2631,1948"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3/annotation/febdfdb5-0147-4939-84bf-10ccdd952ebe",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/675bb7f9-5406-4f88-a050-a027f38ad1c3#xywh=161,5519,2864,1958"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46",
+      "type": "Canvas",
+      "width": 5896,
+      "height": 8013,
+      "label": {
+        "none": [
+          "FRAN_0554_002871_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002871_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002871_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5896,
+                "height": 8013
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46/annotation/db1c1e40-6274-4d3b-9673-672199cbfc47",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46#xywh=3144,174,2631,2526"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46/annotation/cb3c2998-6277-419f-b0b9-d48ea79214d6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46#xywh=441,454,2589,2213"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46/annotation/799c472b-3ff8-40c0-8b53-596a656ba939",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46#xywh=446,2933,2793,2260"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46/annotation/c9d487ca-cf79-4d7e-88e2-01aef181e503",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46#xywh=3586,3618,2176,3009"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46/annotation/9ff79dad-14ca-4072-b21b-efbb84ee2ffc",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/8df88489-38c0-4f9f-bb20-fa930eeaad46#xywh=471,5446,2799,2182"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48",
+      "type": "Canvas",
+      "width": 5951,
+      "height": 7993,
+      "label": {
+        "none": [
+          "FRAN_0554_002866_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002866_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002866_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5951,
+                "height": 7993
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotation/69cf8e00-d121-4129-b06d-11a50e79be3d",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48#xywh=152,189,2661,2292"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotation/fa3b3fe3-508d-41f4-b735-a069b54914a6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48#xywh=2871,417,2853,2068"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotation/0ccce4ea-3a39-4537-8ddd-ef5c6b092841",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48#xywh=2886,3088,2705,1946"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotation/021f4c62-92b4-4dd2-ad26-ba87b4a7da35",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48#xywh=175,3089,2640,1944"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotation/e0ccf5b0-0598-407b-8348-2dcc5fcd2b72",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48#xywh=162,5532,2624,1943"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48/annotation/b0edc29f-6cb6-4914-a5e6-32a17054faf0",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a30a0e3c-7435-4a24-b971-a2152e7a0a48#xywh=2946,5561,2659,1925"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92",
+      "type": "Canvas",
+      "width": 5898,
+      "height": 7963,
+      "label": {
+        "none": [
+          "FRAN_0554_002869_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002869_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002869_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5898,
+                "height": 7963
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotation/65107132-7252-4354-8909-a2f7859ec140",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92#xywh=3139,128,2659,2327"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotation/db7a1868-ddf8-4936-8071-099066cf14bc",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92#xywh=255,434,2802,2047"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotation/8da958a2-d0aa-4325-9538-9fd58a7a92d9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92#xywh=408,3037,2643,2001"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotation/5b0d9956-49e0-4e20-bb6f-a7c309d26401",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92#xywh=3146,3101,2653,1930"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotation/17369910-c66f-42a2-89e9-768aa86f721e",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92#xywh=412,5355,2614,2227"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92/annotation/d34a4cf6-eed7-4dc7-943b-9dcb838da772",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/ac8db3fb-0283-4a01-b2ba-292db309cc92#xywh=3050,5379,2732,2200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6",
+      "type": "Canvas",
+      "width": 5917,
+      "height": 7995,
+      "label": {
+        "none": [
+          "FRAN_0554_002872_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002872_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002872_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5917,
+                "height": 7995
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6/annotation/7e4f4757-1a9e-49f5-a156-95069042503c",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6#xywh=3121,224,2702,3283"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6/annotation/ae339c70-e992-4e50-8d1a-45eae9c0a089",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6#xywh=452,430,2161,2871"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6/annotation/6716ae83-44a7-4255-bf78-b89216994499",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6#xywh=249,4113,2617,2319"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6/annotation/3b6958f5-4697-4de5-8e73-f7c6679f2f35",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/34752428-7abc-462d-98c9-d228b591dae6#xywh=3068,5059,2423,2111"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392",
+      "type": "Canvas",
+      "width": 5931,
+      "height": 7973,
+      "label": {
+        "none": [
+          "FRAN_0554_002867_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002867_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002867_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5931,
+                "height": 7973
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotation/a0bb6781-13eb-4fc3-be55-9a07e2af4fc3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392#xywh=3162,148,2645,2308"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotation/47068858-b351-429a-8e71-ed41b7a8209c",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392#xywh=380,171,2656,2326"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotation/26b079a9-2850-4d68-a8d3-3b5c27afdc5c",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392#xywh=3160,3056,2653,1990"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotation/d32cd27c-c2fe-4fc4-b65e-1ed5a9594722",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392#xywh=434,3095,2632,1975"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotation/9896e09d-c989-48ef-8257-902c3849c52d",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392#xywh=3169,5553,2638,1946"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392/annotation/36f85e4b-340c-441e-b99c-b84d7412585d",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/09e257a4-866e-4f68-bcfc-fc8ec144f392#xywh=429,5613,2599,1857"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355",
+      "type": "Canvas",
+      "width": 5936,
+      "height": 7966,
+      "label": {
+        "none": [
+          "FRAN_0554_002870_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002870_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002870_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5936,
+                "height": 7966
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotation/09ad8d86-df75-4868-867f-59e0b130aa03",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355#xywh=2914,341,2717,2285"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotation/194f2865-3c00-4824-99a7-004951fe7d82",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355#xywh=185,385,2636,2224"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotation/d7709e99-b030-4ae1-8394-b16c742f3ca9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355#xywh=2928,2871,2638,2222"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotation/d0a218f9-a2b6-49db-9d68-405a0920a8db",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355#xywh=177,2900,2631,2209"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotation/a6ced46e-e59e-4e5d-8dd3-c2ef23e2a671",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355#xywh=2936,5320,2882,2234"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355/annotation/20be2d28-d45d-47e1-a241-536b173b132c",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/979d5fa3-0afa-4006-9a2a-dddc915e7355#xywh=202,5335,2676,2199"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b",
+      "type": "Canvas",
+      "width": 5946,
+      "height": 8017,
+      "label": {
+        "none": [
+          "FRAN_0554_002863_L.jpg"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotation/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002863_L.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pictoria-images.huma-num.fr/huma-num-ingest/iiif/2/pictoria-hackathon2511%2FFRAN_0554%2FFRAN_0554_19880215_049%2FFRAN_0554_002863_L.jpg",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "width": 5946,
+                "height": 8017
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotation/f97bf5f3-9506-46c1-a17d-4cbff896b82f",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 1",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b#xywh=3172,333,2638,2163"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotation/5d3a6723-0f04-4b2c-a939-c8079f011278",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 2",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b#xywh=417,606,2599,1903"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotation/71a5fb1f-e4dc-4887-9bab-9a5928b2b9e1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 3",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b#xywh=3156,3006,2643,1981"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotation/ab3cf4ac-d2b0-4653-9344-66162b41adf4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 4",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b#xywh=409,3014,2612,1962"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotation/2ce62f75-c6b2-4d63-a31e-6d3b3343c10b",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 5",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b#xywh=3148,5514,2655,2395"
+            },
+            {
+              "id": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b/annotation/060c4b80-8a83-4b8a-9fe3-687792a0a5e4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "photograph: 6",
+                "format": "text/plain"
+              },
+              "target": "https://storage.teklia.com/public/test/canvas/a160d62f-6690-4882-8710-c1cbbb34559b#xywh=390,5527,2612,1967"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "service": [
+    {
+      "@context": "http://iiif.io/api/search/0/context.json",
+      "@id": "http://localhost:5001/search",
+      "profile": "http://iiif.io/api/search/0/search",
+      "label": "Image Content Search",
+      "service": {
+        "@id": "http://localhost:5001/search/autocomplete",
+        "profile": "http://iiif.io/api/search/0/autocomplete",
+        "label": "Autocomplete"
+      }
+    }
+  ]
+}

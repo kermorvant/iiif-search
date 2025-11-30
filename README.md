@@ -45,12 +45,24 @@ This project implements a IIIF Content Search API using **SigLIP2** for multimod
 
 ## Usage
 
-### 1. Indexing a Manifest
+### 1. Export the corpus from Arkindex
+
+Use arkindex to detect photographs in the corpus and export the corpus in csv, with both the pages and the photographs. An example of the csv file is provided in `examples/0c10a0ae-4ee8-4527-abc9-9112e4cd2a9a.csv'
+
+### 2. Convert the csv to a manifest
+
+Use the `csv_to_iiif.py` script to convert the csv to a manifest. The script will generate a new manifest file (default: `manifest.json`) containing the `service` definition for the search API.
+
+```bash
+python csv_to_iiif.py examples/0c10a0ae-4ee8-4527-abc9-9112e4cd2a9a.csv --output examples/0c10a0ae-4ee8-4527-abc9-9112e4cd2a9a.json
+```
+
+### 3. Indexing a Manifest
 
 To make a manifest searchable, you need to index its images. The script will download images (or crops), compute embeddings, and store them in Qdrant.
 
 ```bash
-python indexer.py path/to/manifest.json
+python indexer.py examples/0c10a0ae-4ee8-4527-abc9-9112e4cd2a9a.json --output examples/0c10a0ae-4ee8-4527-abc9-9112e4cd2a9a_searchable.json
 ```
 
 This will:
@@ -58,7 +70,13 @@ This will:
 -   Index all annotations with "photograph" in their value.
 -   Generate a new manifest file (default: `manifest_with_search.json`) containing the `service` definition for the search API.
 
-### 2. Running the Search Service
+### 4. Upload the manifest to an accessible URL
+
+For example, you can upload the manifest to a GitHub Pages website. For example:
+
+https://kermorvant.github.io/0c10a0ae-4ee8-4527-abc9-9112e4cd2a9a_searchable.json
+
+### 5. Running the Search Service
 
 Start the Flask application:
 
@@ -68,7 +86,7 @@ python app.py
 
 The server will start on port **5001** (or as configured in `app.py`).
 
-### 3. Using the Debug Frontend
+### 6. Using the Debug Frontend
 
 Open your browser and navigate to:
 
@@ -76,25 +94,9 @@ Open your browser and navigate to:
 
 Enter a text query (e.g., "people", "building") to see matching annotations from the indexed manifest.
 
-### 4. API Usage
+### 7. Use in Mirdator or Universal Viewer
 
-The search endpoint follows the IIIF Content Search API pattern:
+Load the manifest in Mirdator or Universal Viewer. The search service will be available at the URL configured in the `app.py` file.
 
-```
-GET /search?q=<query>
-```
+You can test with https://kermorvant.github.io/0c10a0ae-4ee8-4527-abc9-9112e4cd2a9a_searchable.json
 
-**Example**:
-```bash
-curl "http://localhost:5001/search?q=a%20group%20of%20people"
-```
-
-**Response**:
-Returns a IIIF `AnnotationList` containing matching resources.
-
-## Project Structure
-
--   `indexer.py`: Script to process manifests and populate Qdrant.
--   `app.py`: Flask application serving the API and frontend.
--   `templates/index.html`: Debug frontend template.
--   `requirements.txt`: Python dependencies.
